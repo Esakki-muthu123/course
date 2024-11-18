@@ -1,0 +1,342 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    
+    align-items: center;
+    background-color:rgb(250, 188, 72);
+    color: white;
+    padding: 15px 30px;
+}
+
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color:black;
+}
+.flex.cap {
+    gap: 50px;
+}
+
+.flex a:hover{
+    text-decoration: none;
+    background-color: white;
+    border-radius:20px ;
+    padding: 7px;
+}
+
+/* about us============== */
+.about h1{
+margin: auto;
+font-size: 50px;
+padding:30px 0 ;
+text-align: center;
+}
+.about>.flex>.left>.img-par img{
+    width: 100%;
+    height: 100%;
+}
+.about>.flex>.left>.img-par{
+    width: 400px;
+}
+.about>.flex>.right{
+    
+    width: 700px;
+}
+.about>.flex>.right h2{
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.about>.flex>.right ul{
+    padding-left: 40px;
+}
+.about>.flex>.right ul li{
+    padding-bottom:10px ;
+}
+.about>.flex{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+/* skilss333333333333 */
+
+.firstrow img{
+    width: 69px !important;
+}
+.fullcr{
+    
+    padding: 50px ;
+    width: 70%;
+    margin: auto;
+    background-color:rgb(241, 201, 126);
+    border-radius: 30px;
+}
+.innercr p{
+    
+    width: 100px;
+}
+.innercr{
+   
+   
+    margin:0 50px;
+}
+/* ===============================================slybus=========3333333333333============ */
+.syllabus-header {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2rem;
+}
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+.card-body {
+    background-color: #f8f9fa;
+}
+.syllabus-item {
+    font-size: 1.1rem;
+}
+.syllabus-list {
+    margin-bottom: 20px;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #555;
+}
+.fullcon button{
+    text-decoration: none;
+    background-color: rgb(250, 188, 72);
+    color: white;
+}
+/* ============================courde feature=================== */
+.features-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    width: 90px;
+    height: 90px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.feature-icon:hover {
+    background-color: #0056b3;
+}
+
+.feature-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .feature-card {
+        margin: 10px;
+    }
+}
+
+/* Flex container for the feature cards */
+.feature-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ==========================================certificate========================== */
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  .card-body {
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .certificate-img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .certificate-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .certificate-info h2 {
+    font-size: 30px;
+    color: #4caf50;
+  }
+
+  .certificate-info p {
+    font-size: 18px;
+    color: #777;
+  }
+
+  .btn-custom {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-custom:hover {
+    background-color: #45a049;
+  }
+  /* ===================footer===================== */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .footer p,
+  .footer ul {
+    font-size: 16px;
+    color: #bbb;
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer ul li {
+    margin: 10px 0;
+  }
+
+  .footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer ul li a:hover {
+    color: #fff;
+  }
+
+  .footer .social-icons a {
+    color: #bbb;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .footer .social-icons a:hover {
+    color: #4caf50;
+  }
+
+  @media (max-width: 767px) {
+    .footer .col-md-3 {
+      margin-bottom: 20px;
+    }
+  }
